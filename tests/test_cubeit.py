@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 
-BASE_URL = "http://127.0.0.1:5500/Cubeit_Playwright-Test/index.html"
+BASE_URL = "https://cubeit-playwrigh-test-ci.netlify.app//"
 
 def test_cube(page: Page):
     page.goto(BASE_URL)
